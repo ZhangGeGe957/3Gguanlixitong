@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830F10632675AB7F009D68A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F10622675AB7F009D68A3 /* AppDelegate.m */; };
+		830F10662675AB7F009D68A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F10652675AB7F009D68A3 /* SceneDelegate.m */; };
+		830F10692675AB7F009D68A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F10682675AB7F009D68A3 /* ViewController.m */; };
+		830F106C2675AB7F009D68A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F106A2675AB7F009D68A3 /* Main.storyboard */; };
+		830F106E2675AB80009D68A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830F106D2675AB80009D68A3 /* Assets.xcassets */; };
+		830F10712675AB80009D68A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F106F2675AB80009D68A3 /* LaunchScreen.storyboard */; };
+		830F10742675AB80009D68A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F10732675AB80009D68A3 /* main.m */; };
+		830F107E2675AB80009D68A3 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F107D2675AB80009D68A3 /* ________Tests.m */; };
+		830F10892675AB80009D68A3 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F10882675AB80009D68A3 /* ________UITests.m */; };
+		830F10982675AB96009D68A3 /* VCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F10972675AB96009D68A3 /* VCRoot.m */; };
+		830F109B2675ACB9009D68A3 /* VCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F109A2675ACB8009D68A3 /* VCSecond.m */; };
+		830F109E2675ACD2009D68A3 /* VCThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F109D2675ACD2009D68A3 /* VCThird.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		830F107A2675AB80009D68A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830F10562675AB7F009D68A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830F105D2675AB7F009D68A3;
+			remoteInfo = "导航控制器的切换";
+		};
+		830F10852675AB80009D68A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830F10562675AB7F009D68A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830F105D2675AB7F009D68A3;
+			remoteInfo = "导航控制器的切换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		830F105E2675AB7F009D68A3 /* 导航控制器的切换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "导航控制器的切换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830F10612675AB7F009D68A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		830F10622675AB7F009D68A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		830F10642675AB7F009D68A3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		830F10652675AB7F009D68A3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		830F10672675AB7F009D68A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		830F10682675AB7F009D68A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		830F106B2675AB7F009D68A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		830F106D2675AB80009D68A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830F10702675AB80009D68A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830F10722675AB80009D68A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830F10732675AB80009D68A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		830F10792675AB80009D68A3 /* 导航控制器的切换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航控制器的切换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830F107D2675AB80009D68A3 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		830F107F2675AB80009D68A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830F10842675AB80009D68A3 /* 导航控制器的切换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航控制器的切换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830F10882675AB80009D68A3 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		830F108A2675AB80009D68A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830F10962675AB96009D68A3 /* VCRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCRoot.h; sourceTree = "<group>"; };
+		830F10972675AB96009D68A3 /* VCRoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCRoot.m; sourceTree = "<group>"; };
+		830F10992675ACB8009D68A3 /* VCSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCSecond.h; sourceTree = "<group>"; };
+		830F109A2675ACB8009D68A3 /* VCSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCSecond.m; sourceTree = "<group>"; };
+		830F109C2675ACD2009D68A3 /* VCThird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCThird.h; sourceTree = "<group>"; };
+		830F109D2675ACD2009D68A3 /* VCThird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCThird.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830F105B2675AB7F009D68A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830F10762675AB80009D68A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830F10812675AB80009D68A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830F10552675AB7F009D68A3 = {
+			isa = PBXGroup;
+			children = (
+				830F10602675AB7F009D68A3 /* 导航控制器的切换 */,
+				830F107C2675AB80009D68A3 /* 导航控制器的切换Tests */,
+				830F10872675AB80009D68A3 /* 导航控制器的切换UITests */,
+				830F105F2675AB7F009D68A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		830F105F2675AB7F009D68A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830F105E2675AB7F009D68A3 /* 导航控制器的切换.app */,
+				830F10792675AB80009D68A3 /* 导航控制器的切换Tests.xctest */,
+				830F10842675AB80009D68A3 /* 导航控制器的切换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830F10602675AB7F009D68A3 /* 导航控制器的切换 */ = {
+			isa = PBXGroup;
+			children = (
+				830F10612675AB7F009D68A3 /* AppDelegate.h */,
+				830F10622675AB7F009D68A3 /* AppDelegate.m */,
+				830F10642675AB7F009D68A3 /* SceneDelegate.h */,
+				830F10652675AB7F009D68A3 /* SceneDelegate.m */,
+				830F10962675AB96009D68A3 /* VCRoot.h */,
+				830F10972675AB96009D68A3 /* VCRoot.m */,
+				830F10992675ACB8009D68A3 /* VCSecond.h */,
+				830F109A2675ACB8009D68A3 /* VCSecond.m */,
+				830F109C2675ACD2009D68A3 /* VCThird.h */,
+				830F109D2675ACD2009D68A3 /* VCThird.m */,
+				830F10672675AB7F009D68A3 /* ViewController.h */,
+				830F10682675AB7F009D68A3 /* ViewController.m */,
+				830F106A2675AB7F009D68A3 /* Main.storyboard */,
+				830F106D2675AB80009D68A3 /* Assets.xcassets */,
+				830F106F2675AB80009D68A3 /* LaunchScreen.storyboard */,
+				830F10722675AB80009D68A3 /* Info.plist */,
+				830F10732675AB80009D68A3 /* main.m */,
+			);
+			path = "导航控制器的切换";
+			sourceTree = "<group>";
+		};
+		830F107C2675AB80009D68A3 /* 导航控制器的切换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				830F107D2675AB80009D68A3 /* ________Tests.m */,
+				830F107F2675AB80009D68A3 /* Info.plist */,
+			);
+			path = "导航控制器的切换Tests";
+			sourceTree = "<group>";
+		};
+		830F10872675AB80009D68A3 /* 导航控制器的切换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				830F10882675AB80009D68A3 /* ________UITests.m */,
+				830F108A2675AB80009D68A3 /* Info.plist */,
+			);
+			path = "导航控制器的切换UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830F105D2675AB7F009D68A3 /* 导航控制器的切换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830F108D2675AB80009D68A3 /* Build configuration list for PBXNativeTarget "导航控制器的切换" */;
+			buildPhases = (
+				830F105A2675AB7F009D68A3 /* Sources */,
+				830F105B2675AB7F009D68A3 /* Frameworks */,
+				830F105C2675AB7F009D68A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "导航控制器的切换";
+			productName = "导航控制器的切换";
+			productReference = 830F105E2675AB7F009D68A3 /* 导航控制器的切换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		830F10782675AB80009D68A3 /* 导航控制器的切换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830F10902675AB80009D68A3 /* Build configuration list for PBXNativeTarget "导航控制器的切换Tests" */;
+			buildPhases = (
+				830F10752675AB80009D68A3 /* Sources */,
+				830F10762675AB80009D68A3 /* Frameworks */,
+				830F10772675AB80009D68A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830F107B2675AB80009D68A3 /* PBXTargetDependency */,
+			);
+			name = "导航控制器的切换Tests";
+			productName = "导航控制器的切换Tests";
+			productReference = 830F10792675AB80009D68A3 /* 导航控制器的切换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		830F10832675AB80009D68A3 /* 导航控制器的切换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830F10932675AB80009D68A3 /* Build configuration list for PBXNativeTarget "导航控制器的切换UITests" */;
+			buildPhases = (
+				830F10802675AB80009D68A3 /* Sources */,
+				830F10812675AB80009D68A3 /* Frameworks */,
+				830F10822675AB80009D68A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830F10862675AB80009D68A3 /* PBXTargetDependency */,
+			);
+			name = "导航控制器的切换UITests";
+			productName = "导航控制器的切换UITests";
+			productReference = 830F10842675AB80009D68A3 /* 导航控制器的切换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830F10562675AB7F009D68A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					830F105D2675AB7F009D68A3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					830F10782675AB80009D68A3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 830F105D2675AB7F009D68A3;
+					};
+					830F10832675AB80009D68A3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 830F105D2675AB7F009D68A3;
+					};
+				};
+			};
+			buildConfigurationList = 830F10592675AB7F009D68A3 /* Build configuration list for PBXProject "导航控制器的切换" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 830F10552675AB7F009D68A3;
+			productRefGroup = 830F105F2675AB7F009D68A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830F105D2675AB7F009D68A3 /* 导航控制器的切换 */,
+				830F10782675AB80009D68A3 /* 导航控制器的切换Tests */,
+				830F10832675AB80009D68A3 /* 导航控制器的切换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830F105C2675AB7F009D68A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830F10712675AB80009D68A3 /* LaunchScreen.storyboard in Resources */,
+				830F106E2675AB80009D68A3 /* Assets.xcassets in Resources */,
+				830F106C2675AB7F009D68A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830F10772675AB80009D68A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830F10822675AB80009D68A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830F105A2675AB7F009D68A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830F10982675AB96009D68A3 /* VCRoot.m in Sources */,
+				830F10692675AB7F009D68A3 /* ViewController.m in Sources */,
+				830F109B2675ACB9009D68A3 /* VCSecond.m in Sources */,
+				830F109E2675ACD2009D68A3 /* VCThird.m in Sources */,
+				830F10632675AB7F009D68A3 /* AppDelegate.m in Sources */,
+				830F10742675AB80009D68A3 /* main.m in Sources */,
+				830F10662675AB7F009D68A3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830F10752675AB80009D68A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830F107E2675AB80009D68A3 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830F10802675AB80009D68A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830F10892675AB80009D68A3 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		830F107B2675AB80009D68A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830F105D2675AB7F009D68A3 /* 导航控制器的切换 */;
+			targetProxy = 830F107A2675AB80009D68A3 /* PBXContainerItemProxy */;
+		};
+		830F10862675AB80009D68A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830F105D2675AB7F009D68A3 /* 导航控制器的切换 */;
+			targetProxy = 830F10852675AB80009D68A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		830F106A2675AB7F009D68A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830F106B2675AB7F009D68A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		830F106F2675AB80009D68A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830F10702675AB80009D68A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830F108B2675AB80009D68A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		830F108C2675AB80009D68A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830F108E2675AB80009D68A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "导航控制器的切换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		830F108F2675AB80009D68A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "导航控制器的切换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		830F10912675AB80009D68A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "导航控制器的切换Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航控制器的切换.app/导航控制器的切换";
+			};
+			name = Debug;
+		};
+		830F10922675AB80009D68A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "导航控制器的切换Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航控制器的切换.app/导航控制器的切换";
+			};
+			name = Release;
+		};
+		830F10942675AB80009D68A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "导航控制器的切换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "导航控制器的切换";
+			};
+			name = Debug;
+		};
+		830F10952675AB80009D68A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "导航控制器的切换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "导航控制器的切换";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830F10592675AB7F009D68A3 /* Build configuration list for PBXProject "导航控制器的切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830F108B2675AB80009D68A3 /* Debug */,
+				830F108C2675AB80009D68A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830F108D2675AB80009D68A3 /* Build configuration list for PBXNativeTarget "导航控制器的切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830F108E2675AB80009D68A3 /* Debug */,
+				830F108F2675AB80009D68A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830F10902675AB80009D68A3 /* Build configuration list for PBXNativeTarget "导航控制器的切换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830F10912675AB80009D68A3 /* Debug */,
+				830F10922675AB80009D68A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830F10932675AB80009D68A3 /* Build configuration list for PBXNativeTarget "导航控制器的切换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830F10942675AB80009D68A3 /* Debug */,
+				830F10952675AB80009D68A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830F10562675AB7F009D68A3 /* Project object */;
+}
